@@ -8,6 +8,11 @@ def second_challenge
 
   #code your solution here!
 
-  
+  groceries.each do |attribute, value|
+    #puts "#{attribute}: #{value}"
+  attribute.each do |value|
+    puts "#{value}"
+  end
+    
 
 end
