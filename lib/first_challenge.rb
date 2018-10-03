@@ -14,7 +14,9 @@ def first_challenge
   }
 
   #your code here
-
+contacts["Freddy Mercury"][:favorite_icecream_flavors] = "cookie dough", "mint chip"
+#contacts.each do |person, data|
+  
 
   #remember to return your newly altered contacts hash!
   contacts
